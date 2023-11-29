@@ -1,0 +1,116 @@
+.event-description-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #f0f0f0; /* Set a background color for the entire card */
+}
+
+.event-description-container {
+  width: 2800px;
+  height: 750px;
+  padding: 20px;
+  border: 3px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.description-part {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 90%;
+  height: 400px;
+  padding: 10px;
+  border: 5px solid #794444;
+  border-radius: 5px;
+  font-family: inherit;
+  background: linear-gradient(to bottom, #ffb6c1, #94a155);
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  line-height: 300px;
+}
+
+textarea::placeholder {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 300px; /* Adjust based on the textarea height */
+}
+
+/* EventDescription.css */
+
+.event-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.style-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Take full horizontal space */
+  margin-top: 20px;
+}
+
+.style-part label {
+  text-align: left; /* Align label text to the left */
+  width: 100%; /* Take full horizontal space */
+  margin-bottom: 5px;
+}
+
+.style-part input,
+.style-part select {
+  width: 100%; /* Take full horizontal space */
+  margin-bottom: 10px;
+}
+
+
+/* EventDescription.css */
+
+.theme-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.theme-part label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.theme-part select {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.theme-part select:hover {
+  background-color: #e0e0e0;
+}
+
+.theme-part select:focus {
+  outline: none;
+  border-color: #4d90fe;
+  box-shadow: 0 0 5px rgba(77, 144, 254, 0.7);
+}

@@ -1,0 +1,132 @@
+
+/* DatePickerCard.css */
+
+.date-picker-card {
+  background-color: #b1afd6;
+ 
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.date-picker-container {
+  display: flex;
+  justify-content:center;
+  gap: 250px;
+  font-weight: 700;
+}
+
+
+/* EventNameCard.css */
+
+.event-name-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.event-name-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.event-name-input::placeholder {
+  color: #aaa;
+}
+
+
+
+
+
+/* LocationSelectionCard.css */
+
+.location-selection-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.gps-icon {
+  color: #007bff;
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.location-input select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Apply other styles as needed */
+
+
+
+
+
+.calendar-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.switch-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+
+
+.create-event-button:hover {
+  background-color: #2c3e50; /* Darker blue on hover */
+}
+
+
+/* EventOptionsCard.css */
+
+.event-options-card {
+  background-color: #e3d7d7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.event-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.event-option label {
+  margin-left: 12px;
+}
+
+.create-event-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-event-button:hover {
+  background-color: #0056b3;
+}

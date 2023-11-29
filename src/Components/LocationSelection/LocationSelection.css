@@ -1,0 +1,32 @@
+/* LocationSelection.css */
+
+.location-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.gps-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* You can customize the select dropdown appearance */
+select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Add a bit of animation to make it more interactive */
+select:hover {
+  border-color: #007bff;
+  transition: border-color 0.3s ease;
+}
